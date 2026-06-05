@@ -17,7 +17,24 @@ For example, in college:
 You cannot take Data Structures before learning Programming Basics.'''
 =============================
 
-find the shortest path in a weighted graph, Dijkstra's algorithm is commonly used
+find the shortest path in a weighted graph, Dijkstra's algorithm((like GPS navigation, network packet routing, maps)) is commonly used
+'''For routing between nodes (like GPS navigation, network packet routing, maps), the most common algorithm is:
+
+1. Dijkstra's Algorithm
+
+Use when:
+
+Graph has weighted edges (distance, cost, latency, time)
+All weights are non-negative
+
+Example:
+
+Road networks
+Network routing calculations
+Finding the shortest route between cities
+
+The core idea is to repeatedly choose the node with the smallest known distance and relax its neighbors.'''
+
 ===============================================
 
 0/1 Knapsack Problem: A Dynamic Programming Guide: 
