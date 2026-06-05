@@ -1,1 +1,48 @@
+examples:
+Finding connected groups of friends
+Counting islands in a grid
+Exploring reachable cities
+Spreading infection across nodes
+All of these are actually graph traversal problems.
+==========================================================
 
+The shortest path in an unweighted graph can be found using breadth-first search (BFS). BFS
+=================================
+
+Topological Sorting (Dependency Graph) -> DFS Based Topological Sort
+'''Sometimes in real life, certain tasks cannot be done until some other tasks are completed first.
+
+For example, in college:
+
+You cannot take Data Structures before learning Programming Basics.'''
+=============================
+
+find the shortest path in a weighted graph, Dijkstra's algorithm is commonly used
+===============================================
+
+0/1 Knapsack Problem: A Dynamic Programming Guide: 
+'''
+Problem Breakdown
+Imagine you are a thief with a bag (knapsack) that can carry a limited weight `W`. You have `n` items, each with a specific weight `w[i]` and value `v[i]`. Your goal is to maximize the total value of items you can carry, without exceeding the weight capacity of your bag.
+
+Key Insight:
+- Each item can either be **selected (1)** or **not selected (0)** — hence the term “0/1” knapsack.
+
+Approach to the Solution
+To tackle this problem, we’ll start with a **recursive solution**, optimize it using **memoization**, and finally arrive at the **top-down dynamic programming** approach.
+
+'''
+
+
+=============
+
+
+'''Pattern 1. Graph Traversal (DFS / BFS)
+When to use
+
+Explore all nodes
+Connected regions
+Grid problems
+Flood fill / islands
+'''
+========================================
