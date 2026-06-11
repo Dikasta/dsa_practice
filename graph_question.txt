@@ -63,3 +63,65 @@ Grid problems
 Flood fill / islands
 '''
 ========================================
+
+
+zero and one knapsake algo:
+======================
+
+1. 💼 Financial Portfolio Management
+Investment managers use the 0/1 Knapsack algorithm to build optimal asset portfolios.
+
+The Knapsack Capacity: The total capital an investor has available to spend.
+
+The Items: Different stocks, bonds, or startup projects to invest in.
+
+Weights & Values: The cost of buying the asset (weight) and its projected return or profit (value).
+
+The Goal: Maximize profit while staying strictly within the budget. Because you can't buy half of a specific venture capital project, it fits the 0/1 constraint perfectly.
+========================
+
+2. ☁️ Cloud Computing & Data Center Allocation
+Cloud providers like Amazon Web Services (AWS), Google Cloud, and Microsoft Azure use variations of this algorithm to maximize server efficiency.
+
+The Knapsack Capacity: A physical server's total RAM, CPU capacity, or bandwidth.
+
+The Items: Virtual Machines (VMs) or container requests submitted by customers.
+
+Weights & Values: The resource requirements of the customer's application (weight) and the rental price the customer is paying (value).
+
+The Goal: Pack as many high-paying customer applications onto a single physical server as possible without overloading the hardware.
+==================================
+
+3. 🚚 Logistics, Shipping, and Cargo Loading
+When transport companies load delivery trucks, cargo planes, or shipping containers, they use the knapsack algorithm to maximize revenue.
+
+The Knapsack Capacity: The maximum weight or volume capacity of the vehicle.
+
+The Items: Packages or shipping crates waiting at the warehouse.
+
+Weights & Values: The physical weight of the crate (weight) and the shipping fee paid by the customer (value).
+
+The Goal: Pack the vehicle to ensure it generates the highest possible revenue on its trip without violating legal weight limits.
+================================================
+
+4. 🎬 Video Streaming & Data Compression (e.g., Netflix or YouTube)
+When a streaming platform prepares video files to be streamed over varying internet speeds, it must compress the data.
+
+The Knapsack Capacity: The maximum bitrate a user's internet connection can handle (e.g., 5 Mbps).
+
+The Items: Different video frames or audio tracks.
+
+Weights & Values: The file size of the video frame (weight) and the resulting visual quality/resolution (value).
+
+The Goal: Pick the highest possible video quality frames that can seamlessly fit into the user's current network bandwidth without causing buffering.
+=============================================================================
+5. ⚡ Renewable Energy Grid Management
+Industrial manufacturing plants use this algorithm to optimize energy consumption during peak hours when electricity is expensive.
+
+The Knapsack Capacity: The maximum safe electrical load or a fixed daily energy budget.
+
+The Items: Different manufacturing machines or production lines that need to run.
+
+Weights & Values: The electricity consumed by a machine (weight) and the value/priority of the products it creates (value).
+
+The Goal: Choose which assembly lines to activate to maximize factory output while staying under the energy ceiling.
