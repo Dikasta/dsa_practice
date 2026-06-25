@@ -50,7 +50,7 @@ g.add_vertex_data(4, 'E')
 g.add_vertex_data(5, 'F')
 g.add_vertex_data(6, 'G')
 
-g.add_edge(3, 0, 4)  # D - A, weight 5
+g.add_edge(3, 0, 4)  # D - A, weight 5 # u=3, v=0, weight=4
 g.add_edge(3, 4, 2)  # D - E, weight 2
 g.add_edge(0, 2, 3)  # A - C, weight 3
 g.add_edge(0, 4, 4)  # A - E, weight 4
